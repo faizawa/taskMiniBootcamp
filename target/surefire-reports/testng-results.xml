@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-30T19:59:43 WIB" name="Surefire suite" finished-at="2024-10-30T19:59:47 WIB" duration-ms="4066">
+    <groups>
+    </groups>
+    <test started-at="2024-10-30T19:59:43 WIB" name="Surefire test" finished-at="2024-10-30T19:59:47 WIB" duration-ms="4066">
+      <class name="restfulApi">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restfulApi@1a38c59b]" started-at="2024-10-30T19:59:43 WIB" name="setup" finished-at="2024-10-30T19:59:44 WIB" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostMethod()[pri:0, instance:restfulApi@1a38c59b]" started-at="2024-10-30T19:59:44 WIB" name="testPostMethod" finished-at="2024-10-30T19:59:46 WIB" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostMethod -->
+        <test-method signature="testGetMethod()[pri:0, instance:restfulApi@1a38c59b]" started-at="2024-10-30T19:59:46 WIB" name="testGetMethod" finished-at="2024-10-30T19:59:46 WIB" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMethod -->
+        <test-method signature="testDeleteMethod()[pri:0, instance:restfulApi@1a38c59b]" started-at="2024-10-30T19:59:46 WIB" name="testDeleteMethod" finished-at="2024-10-30T19:59:47 WIB" depends-on-methods="restfulApi.testPostMethod" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteMethod -->
+      </class> <!-- restfulApi -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
